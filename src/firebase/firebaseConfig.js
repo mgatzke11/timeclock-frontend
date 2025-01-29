@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC8OxgonBToSaHrZaFAVXsdl-0Kpf6tJ2s",
+  authDomain: "cug-manufacturing-hub.firebaseapp.com",
+  projectId: "cug-manufacturing-hub",
+  storageBucket: "cug-manufacturing-hub.firebasestorage.app",
+  messagingSenderId: "1038909551804",
+  appId: "1:1038909551804:web:dc653edd4ce74dff240cb9"
 };
 
 const app = initializeApp(firebaseConfig);
