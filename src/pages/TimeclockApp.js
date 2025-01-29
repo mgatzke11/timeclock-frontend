@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
-import { Button } from "../components/ui/Button";
-import { Card } from "../components/ui/Card";
-import { Input } from "../components/ui/Input";
+import { Button } from "./components/ui/Button";
+import { Card } from "./components/ui/Card";
+import { Input } from "./components/ui/Input";
 import { AuthContext } from "../context/AuthContext";
 import { db, storage, signInWithGoogle } from "../firebase/firebaseConfig";
 import { collection, addDoc, doc, setDoc, getDoc, updateDoc, deleteDoc, getDocs, serverTimestamp } from "firebase/firestore";
